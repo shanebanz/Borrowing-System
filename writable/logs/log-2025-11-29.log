@@ -1,0 +1,1244 @@
+DEBUG - 2025-11-29 07:56:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 07:56:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 07:56:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 07:56:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 07:56:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 07:56:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 07:57:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 07:57:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 07:57:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 07:57:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 07:57:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 07:57:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 07:57:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 07:57:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 07:57:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:08:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:09:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:09:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:09:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:09:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:09:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:09:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:10:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:10:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:10:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:10:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:10:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:10:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:11:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:12:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:12:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:12:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:12:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:12:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:12:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:12:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:13:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:13:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-11-29 09:13:05 --> mysqli_sql_exception: Unknown column 'equipment.accessories' in 'field list' in C:\xampp\htdocs\SYS\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\SYS\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `borrow_...', 0)
+#1 C:\xampp\htdocs\SYS\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `borrow_...')
+#2 C:\xampp\htdocs\SYS\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `borrow_...')
+#3 C:\xampp\htdocs\SYS\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `borrow_...', Array, false)
+#4 C:\xampp\htdocs\SYS\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\SYS\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\SYS\app\Models\TransactionModel.php(21): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\SYS\app\Controllers\Student.php(28): App\Models\TransactionModel->getActiveBorrowedItems('7')
+#8 C:\xampp\htdocs\SYS\system\CodeIgniter.php(933): App\Controllers\Student->dashboard()
+#9 C:\xampp\htdocs\SYS\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+#10 C:\xampp\htdocs\SYS\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\SYS\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\SYS\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\SYS\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-11-29 09:13:06 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'equipment.accessories' in 'field list'
+[Method: GET, Route: studentDash_main]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `borrow_transactions`.*, `equipment`.`name`, `equipment`.`category`, `equipment`.`accessories`
+FROM `borrow_transactions`
+JOIN `equipment` ON `equipment`.`equipment_id` = `borrow_transactions`.`equipment_id`
+WHERE `borrow_transactions`.`user_id` = :borrow_transactions.user_id:
+AND `borrow_transactions`.`returned` = :borrow_transactions.returned:
+ORDER BY `borrow_transactions`.`borrow_date` DESC', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\TransactionModel.php(21): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Student.php(28): App\Models\TransactionModel->getActiveBorrowedItems('7')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Student->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-29 09:13:06 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'equipment.accessories' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `borrow_transactions`.*, `equipment`.`name`, `equipment`.`category`, `equipment`.`accessories`
+FROM `borrow_transactions`
+JOIN `equipment` ON `equipment`.`equipment_id` = `borrow_transactions`.`equipment_id`
+WHERE `borrow_transactions`.`user_id` = \'7\'
+AND `borrow_transactions`.`returned` = 0
+ORDER BY `borrow_transactions`.`borrow_date` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `borrow_transactions`.*, `equipment`.`name`, `equipment`.`category`, `equipment`.`accessories`
+FROM `borrow_transactions`
+JOIN `equipment` ON `equipment`.`equipment_id` = `borrow_transactions`.`equipment_id`
+WHERE `borrow_transactions`.`user_id` = \'7\'
+AND `borrow_transactions`.`returned` = 0
+ORDER BY `borrow_transactions`.`borrow_date` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `borrow_transactions`.*, `equipment`.`name`, `equipment`.`category`, `equipment`.`accessories`
+FROM `borrow_transactions`
+JOIN `equipment` ON `equipment`.`equipment_id` = `borrow_transactions`.`equipment_id`
+WHERE `borrow_transactions`.`user_id` = :borrow_transactions.user_id:
+AND `borrow_transactions`.`returned` = :borrow_transactions.returned:
+ORDER BY `borrow_transactions`.`borrow_date` DESC', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\TransactionModel.php(21): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Student.php(28): App\Models\TransactionModel->getActiveBorrowedItems('7')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Student->dashboard()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-29 09:13:06 --> [Caused by] mysqli_sql_exception: Unknown column 'equipment.accessories' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `borrow_transactions`.*, `equipment`.`name`, `equipment`.`category`, `equipment`.`accessories`
+FROM `borrow_transactions`
+JOIN `equipment` ON `equipment`.`equipment_id` = `borrow_transactions`.`equipment_id`
+WHERE `borrow_transactions`.`user_id` = \'7\'
+AND `borrow_transactions`.`returned` = 0
+ORDER BY `borrow_transactions`.`borrow_date` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `borrow_transactions`.*, `equipment`.`name`, `equipment`.`category`, `equipment`.`accessories`
+FROM `borrow_transactions`
+JOIN `equipment` ON `equipment`.`equipment_id` = `borrow_transactions`.`equipment_id`
+WHERE `borrow_transactions`.`user_id` = \'7\'
+AND `borrow_transactions`.`returned` = 0
+ORDER BY `borrow_transactions`.`borrow_date` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `borrow_transactions`.*, `equipment`.`name`, `equipment`.`category`, `equipment`.`accessories`
+FROM `borrow_transactions`
+JOIN `equipment` ON `equipment`.`equipment_id` = `borrow_transactions`.`equipment_id`
+WHERE `borrow_transactions`.`user_id` = \'7\'
+AND `borrow_transactions`.`returned` = 0
+ORDER BY `borrow_transactions`.`borrow_date` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `borrow_transactions`.*, `equipment`.`name`, `equipment`.`category`, `equipment`.`accessories`
+FROM `borrow_transactions`
+JOIN `equipment` ON `equipment`.`equipment_id` = `borrow_transactions`.`equipment_id`
+WHERE `borrow_transactions`.`user_id` = :borrow_transactions.user_id:
+AND `borrow_transactions`.`returned` = :borrow_transactions.returned:
+ORDER BY `borrow_transactions`.`borrow_date` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\TransactionModel.php(21): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Student.php(28): App\Models\TransactionModel->getActiveBorrowedItems('7')
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Student->dashboard()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-29 09:14:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:14:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-11-29 09:14:34 --> mysqli_sql_exception: Unknown column 'borrow_transactions.equipment_id' in 'on clause' in C:\xampp\htdocs\SYS\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\SYS\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `borrow_...', 0)
+#1 C:\xampp\htdocs\SYS\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `borrow_...')
+#2 C:\xampp\htdocs\SYS\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `borrow_...')
+#3 C:\xampp\htdocs\SYS\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `borrow_...', Array, false)
+#4 C:\xampp\htdocs\SYS\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\SYS\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\SYS\app\Models\TransactionModel.php(21): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\SYS\app\Controllers\Student.php(28): App\Models\TransactionModel->getActiveBorrowedItems('7')
+#8 C:\xampp\htdocs\SYS\system\CodeIgniter.php(933): App\Controllers\Student->dashboard()
+#9 C:\xampp\htdocs\SYS\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+#10 C:\xampp\htdocs\SYS\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\SYS\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\SYS\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\SYS\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-11-29 09:14:34 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'borrow_transactions.equipment_id' in 'on clause'
+[Method: GET, Route: studentDash_main]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `borrow_transactions`.*, `equipment`.`name`, `equipment`.`category`, `equipment`.`accessories`
+FROM `borrow_transactions`
+JOIN `equipment` ON `equipment`.`equipment_id` = `borrow_transactions`.`equipment_id`
+WHERE `borrow_transactions`.`user_id` = :borrow_transactions.user_id:
+AND `borrow_transactions`.`returned` = :borrow_transactions.returned:
+ORDER BY `borrow_transactions`.`borrow_date` DESC', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\TransactionModel.php(21): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Student.php(28): App\Models\TransactionModel->getActiveBorrowedItems('7')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Student->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-29 09:14:34 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'borrow_transactions.equipment_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `borrow_transactions`.*, `equipment`.`name`, `equipment`.`category`, `equipment`.`accessories`
+FROM `borrow_transactions`
+JOIN `equipment` ON `equipment`.`equipment_id` = `borrow_transactions`.`equipment_id`
+WHERE `borrow_transactions`.`user_id` = \'7\'
+AND `borrow_transactions`.`returned` = 0
+ORDER BY `borrow_transactions`.`borrow_date` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `borrow_transactions`.*, `equipment`.`name`, `equipment`.`category`, `equipment`.`accessories`
+FROM `borrow_transactions`
+JOIN `equipment` ON `equipment`.`equipment_id` = `borrow_transactions`.`equipment_id`
+WHERE `borrow_transactions`.`user_id` = \'7\'
+AND `borrow_transactions`.`returned` = 0
+ORDER BY `borrow_transactions`.`borrow_date` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `borrow_transactions`.*, `equipment`.`name`, `equipment`.`category`, `equipment`.`accessories`
+FROM `borrow_transactions`
+JOIN `equipment` ON `equipment`.`equipment_id` = `borrow_transactions`.`equipment_id`
+WHERE `borrow_transactions`.`user_id` = :borrow_transactions.user_id:
+AND `borrow_transactions`.`returned` = :borrow_transactions.returned:
+ORDER BY `borrow_transactions`.`borrow_date` DESC', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\TransactionModel.php(21): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Student.php(28): App\Models\TransactionModel->getActiveBorrowedItems('7')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Student->dashboard()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-29 09:14:34 --> [Caused by] mysqli_sql_exception: Unknown column 'borrow_transactions.equipment_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `borrow_transactions`.*, `equipment`.`name`, `equipment`.`category`, `equipment`.`accessories`
+FROM `borrow_transactions`
+JOIN `equipment` ON `equipment`.`equipment_id` = `borrow_transactions`.`equipment_id`
+WHERE `borrow_transactions`.`user_id` = \'7\'
+AND `borrow_transactions`.`returned` = 0
+ORDER BY `borrow_transactions`.`borrow_date` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `borrow_transactions`.*, `equipment`.`name`, `equipment`.`category`, `equipment`.`accessories`
+FROM `borrow_transactions`
+JOIN `equipment` ON `equipment`.`equipment_id` = `borrow_transactions`.`equipment_id`
+WHERE `borrow_transactions`.`user_id` = \'7\'
+AND `borrow_transactions`.`returned` = 0
+ORDER BY `borrow_transactions`.`borrow_date` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `borrow_transactions`.*, `equipment`.`name`, `equipment`.`category`, `equipment`.`accessories`
+FROM `borrow_transactions`
+JOIN `equipment` ON `equipment`.`equipment_id` = `borrow_transactions`.`equipment_id`
+WHERE `borrow_transactions`.`user_id` = \'7\'
+AND `borrow_transactions`.`returned` = 0
+ORDER BY `borrow_transactions`.`borrow_date` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `borrow_transactions`.*, `equipment`.`name`, `equipment`.`category`, `equipment`.`accessories`
+FROM `borrow_transactions`
+JOIN `equipment` ON `equipment`.`equipment_id` = `borrow_transactions`.`equipment_id`
+WHERE `borrow_transactions`.`user_id` = :borrow_transactions.user_id:
+AND `borrow_transactions`.`returned` = :borrow_transactions.returned:
+ORDER BY `borrow_transactions`.`borrow_date` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\TransactionModel.php(21): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Student.php(28): App\Models\TransactionModel->getActiveBorrowedItems('7')
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Student->dashboard()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-29 09:14:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:14:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:14:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:14:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-11-29 09:14:48 --> mysqli_sql_exception: Unknown column 'borrow_transactions.equipment_id' in 'on clause' in C:\xampp\htdocs\SYS\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\SYS\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `borrow_...', 0)
+#1 C:\xampp\htdocs\SYS\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `borrow_...')
+#2 C:\xampp\htdocs\SYS\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `borrow_...')
+#3 C:\xampp\htdocs\SYS\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `borrow_...', Array, false)
+#4 C:\xampp\htdocs\SYS\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\SYS\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\SYS\app\Models\TransactionModel.php(21): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\SYS\app\Controllers\Student.php(28): App\Models\TransactionModel->getActiveBorrowedItems('7')
+#8 C:\xampp\htdocs\SYS\system\CodeIgniter.php(933): App\Controllers\Student->dashboard()
+#9 C:\xampp\htdocs\SYS\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+#10 C:\xampp\htdocs\SYS\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\SYS\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\SYS\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\SYS\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-11-29 09:14:48 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'borrow_transactions.equipment_id' in 'on clause'
+[Method: GET, Route: studentDash_main]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `borrow_transactions`.*, `equipment`.`name`, `equipment`.`category`, `equipment`.`accessories`
+FROM `borrow_transactions`
+JOIN `equipment` ON `equipment`.`equipment_id` = `borrow_transactions`.`equipment_id`
+WHERE `borrow_transactions`.`user_id` = :borrow_transactions.user_id:
+AND `borrow_transactions`.`returned` = :borrow_transactions.returned:
+ORDER BY `borrow_transactions`.`borrow_date` DESC', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\TransactionModel.php(21): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Student.php(28): App\Models\TransactionModel->getActiveBorrowedItems('7')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Student->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-29 09:14:48 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'borrow_transactions.equipment_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `borrow_transactions`.*, `equipment`.`name`, `equipment`.`category`, `equipment`.`accessories`
+FROM `borrow_transactions`
+JOIN `equipment` ON `equipment`.`equipment_id` = `borrow_transactions`.`equipment_id`
+WHERE `borrow_transactions`.`user_id` = \'7\'
+AND `borrow_transactions`.`returned` = 0
+ORDER BY `borrow_transactions`.`borrow_date` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `borrow_transactions`.*, `equipment`.`name`, `equipment`.`category`, `equipment`.`accessories`
+FROM `borrow_transactions`
+JOIN `equipment` ON `equipment`.`equipment_id` = `borrow_transactions`.`equipment_id`
+WHERE `borrow_transactions`.`user_id` = \'7\'
+AND `borrow_transactions`.`returned` = 0
+ORDER BY `borrow_transactions`.`borrow_date` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `borrow_transactions`.*, `equipment`.`name`, `equipment`.`category`, `equipment`.`accessories`
+FROM `borrow_transactions`
+JOIN `equipment` ON `equipment`.`equipment_id` = `borrow_transactions`.`equipment_id`
+WHERE `borrow_transactions`.`user_id` = :borrow_transactions.user_id:
+AND `borrow_transactions`.`returned` = :borrow_transactions.returned:
+ORDER BY `borrow_transactions`.`borrow_date` DESC', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\TransactionModel.php(21): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Student.php(28): App\Models\TransactionModel->getActiveBorrowedItems('7')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Student->dashboard()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-29 09:14:48 --> [Caused by] mysqli_sql_exception: Unknown column 'borrow_transactions.equipment_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `borrow_transactions`.*, `equipment`.`name`, `equipment`.`category`, `equipment`.`accessories`
+FROM `borrow_transactions`
+JOIN `equipment` ON `equipment`.`equipment_id` = `borrow_transactions`.`equipment_id`
+WHERE `borrow_transactions`.`user_id` = \'7\'
+AND `borrow_transactions`.`returned` = 0
+ORDER BY `borrow_transactions`.`borrow_date` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `borrow_transactions`.*, `equipment`.`name`, `equipment`.`category`, `equipment`.`accessories`
+FROM `borrow_transactions`
+JOIN `equipment` ON `equipment`.`equipment_id` = `borrow_transactions`.`equipment_id`
+WHERE `borrow_transactions`.`user_id` = \'7\'
+AND `borrow_transactions`.`returned` = 0
+ORDER BY `borrow_transactions`.`borrow_date` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `borrow_transactions`.*, `equipment`.`name`, `equipment`.`category`, `equipment`.`accessories`
+FROM `borrow_transactions`
+JOIN `equipment` ON `equipment`.`equipment_id` = `borrow_transactions`.`equipment_id`
+WHERE `borrow_transactions`.`user_id` = \'7\'
+AND `borrow_transactions`.`returned` = 0
+ORDER BY `borrow_transactions`.`borrow_date` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `borrow_transactions`.*, `equipment`.`name`, `equipment`.`category`, `equipment`.`accessories`
+FROM `borrow_transactions`
+JOIN `equipment` ON `equipment`.`equipment_id` = `borrow_transactions`.`equipment_id`
+WHERE `borrow_transactions`.`user_id` = :borrow_transactions.user_id:
+AND `borrow_transactions`.`returned` = :borrow_transactions.returned:
+ORDER BY `borrow_transactions`.`borrow_date` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\TransactionModel.php(21): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Student.php(28): App\Models\TransactionModel->getActiveBorrowedItems('7')
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Student->dashboard()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-29 09:16:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:16:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:16:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:16:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:16:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:16:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:16:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:16:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:17:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:19:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:19:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:19:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:19:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:20:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:20:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:20:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:20:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:20:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:20:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:20:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:20:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:20:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:20:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:20:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:21:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:21:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:21:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:21:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:21:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:22:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:22:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:22:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:22:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:22:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:22:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:23:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:23:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:23:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:23:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:23:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:23:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:23:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:23:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:23:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:23:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:23:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:23:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:24:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:24:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:26:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:26:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:26:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:26:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:26:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:26:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:27:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:27:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:27:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:27:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:27:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:27:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:27:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:31:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:31:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:31:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:32:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:33:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:35:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:35:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:35:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:35:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:35:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:35:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:35:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:35:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:35:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:35:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:35:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:36:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:36:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:36:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:36:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:36:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:37:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:38:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-29 09:38:02 --> ErrorException: Undefined array key "equipment_name"
+[Method: GET, Route: itso/items]
+in APPPATH\Views\itso_items.php on line 503.
+ 1 APPPATH\Views\itso_items.php(503): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "equipment_name"', 'C:\\xampp\\htdocs\\SYS\\app\\Views\\itso_items.php', 503)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\SYS\\app\\Views\\itso_items.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('itso_items', [], true)
+ 5 APPPATH\Controllers\It.php(41): view('itso_items', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\It->items()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\It))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-29 09:39:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:39:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:39:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:39:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:39:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:39:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:39:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:39:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:39:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:40:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:40:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:40:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:40:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:44:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:44:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:44:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:45:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:45:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:46:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:47:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:47:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:47:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:47:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:47:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:47:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:47:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:47:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:47:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:48:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:48:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:48:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:48:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:48:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:50:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:50:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:50:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:50:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:50:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:50:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:50:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:50:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:50:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:50:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:50:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:50:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:50:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:51:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:52:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:53:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:53:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:53:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:55:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:55:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:59:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:59:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:59:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:59:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 09:59:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:32:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:33:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:33:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:33:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:34:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:34:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:34:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:34:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:35:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:35:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:35:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:35:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:36:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:36:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:36:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:36:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:36:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:37:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:37:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:37:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:37:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:37:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:37:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:38:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-11-29 13:38:43 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`sys_final`.`borrow_transactions`, CONSTRAINT `borrow_transactions_ibfk_2` FOREIGN KEY (`equipment_id`) REFERENCES `equipment_items` (`item_id`) ON DELETE CASCADE ON UPDATE CASCADE) in C:\xampp\htdocs\SYS\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\SYS\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `bo...', 0)
+#1 C:\xampp\htdocs\SYS\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `bo...')
+#2 C:\xampp\htdocs\SYS\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `bo...')
+#3 C:\xampp\htdocs\SYS\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bo...', Array, false)
+#4 C:\xampp\htdocs\SYS\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\SYS\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\SYS\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\SYS\app\Controllers\Associate.php(102): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\SYS\system\CodeIgniter.php(933): App\Controllers\Associate->borrowEquipment()
+#9 C:\xampp\htdocs\SYS\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Associate))
+#10 C:\xampp\htdocs\SYS\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\SYS\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\SYS\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\SYS\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-11-29 13:38:43 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`sys_final`.`borrow_transactions`, CONSTRAINT `borrow_transactions_ibfk_2` FOREIGN KEY (`equipment_id`) REFERENCES `equipment_items` (`item_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+[Method: POST, Route: associate/borrow]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `borrow_transactions` (`user_id`, `equipment_id`, `quantity`, `borrow_date`, `returned`, `created_at`) VALUES (:user_id:, :equipment_id:, :quantity:, :borrow_date:, :returned:, :created_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Associate.php(102): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Associate->borrowEquipment()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Associate))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-29 13:38:43 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`sys_final`.`borrow_transactions`, CONSTRAINT `borrow_transactions_ibfk_2` FOREIGN KEY (`equipment_id`) REFERENCES `equipment_items` (`item_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `borrow_transactions` (`user_id`, `equipment_id`, `quantity`, `borrow_date`, `returned`, `created_at`) VALUES (\'3\', \'5\', 1, \'2025-11-29 13:38:43\', 0, \'2025-11-29 13:38:43\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `borrow_transactions` (`user_id`, `equipment_id`, `quantity`, `borrow_date`, `returned`, `created_at`) VALUES (\'3\', \'5\', 1, \'2025-11-29 13:38:43\', 0, \'2025-11-29 13:38:43\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `borrow_transactions` (`user_id`, `equipment_id`, `quantity`, `borrow_date`, `returned`, `created_at`) VALUES (:user_id:, :equipment_id:, :quantity:, :borrow_date:, :returned:, :created_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Associate.php(102): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Associate->borrowEquipment()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Associate))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-29 13:38:43 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`sys_final`.`borrow_transactions`, CONSTRAINT `borrow_transactions_ibfk_2` FOREIGN KEY (`equipment_id`) REFERENCES `equipment_items` (`item_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `borrow_transactions` (`user_id`, `equipment_id`, `quantity`, `borrow_date`, `returned`, `created_at`) VALUES (\'3\', \'5\', 1, \'2025-11-29 13:38:43\', 0, \'2025-11-29 13:38:43\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `borrow_transactions` (`user_id`, `equipment_id`, `quantity`, `borrow_date`, `returned`, `created_at`) VALUES (\'3\', \'5\', 1, \'2025-11-29 13:38:43\', 0, \'2025-11-29 13:38:43\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `borrow_transactions` (`user_id`, `equipment_id`, `quantity`, `borrow_date`, `returned`, `created_at`) VALUES (\'3\', \'5\', 1, \'2025-11-29 13:38:43\', 0, \'2025-11-29 13:38:43\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `borrow_transactions` (`user_id`, `equipment_id`, `quantity`, `borrow_date`, `returned`, `created_at`) VALUES (:user_id:, :equipment_id:, :quantity:, :borrow_date:, :returned:, :created_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Associate.php(102): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Associate->borrowEquipment()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Associate))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-29 13:39:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-11-29 13:39:10 --> mysqli_sql_exception: Unknown column 'reservations.pickup_date' in 'where clause' in C:\xampp\htdocs\SYS\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\SYS\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `reserva...', 0)
+#1 C:\xampp\htdocs\SYS\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `reserva...')
+#2 C:\xampp\htdocs\SYS\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `reserva...')
+#3 C:\xampp\htdocs\SYS\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `reserva...', Array, false)
+#4 C:\xampp\htdocs\SYS\app\Models\ReservationModel.php(56): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\SYS\app\Controllers\Associate.php(289): App\Models\ReservationModel->getUpcomingReservations('3')
+#6 C:\xampp\htdocs\SYS\system\CodeIgniter.php(933): App\Controllers\Associate->reservation()
+#7 C:\xampp\htdocs\SYS\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Associate))
+#8 C:\xampp\htdocs\SYS\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\SYS\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\SYS\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\SYS\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-11-29 13:39:10 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'reservations.pickup_date' in 'where clause'
+[Method: GET, Route: associate/reservation]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `reservations`.*, `equipment`.`name` as `equipment_name`, `equipment`.`category`, `equipment`.`accessories`
+FROM `reservations`
+JOIN `equipment` ON `equipment`.`equipment_id` = `reservations`.`equipment_id`
+WHERE `reservations`.`user_id` = :reservations.user_id:
+AND `reservations`.`status` IN :reservations.status:
+AND `reservations`.`pickup_date` > :reservations.pickup_date:
+ORDER BY `reservations`.`pickup_date` ASC', [...], false)
+ 2 APPPATH\Models\ReservationModel.php(56): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Associate.php(289): App\Models\ReservationModel->getUpcomingReservations('3')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Associate->reservation()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Associate))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-29 13:39:10 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'reservations.pickup_date' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `reservations`.*, `equipment`.`name` as `equipment_name`, `equipment`.`category`, `equipment`.`accessories`
+FROM `reservations`
+JOIN `equipment` ON `equipment`.`equipment_id` = `reservations`.`equipment_id`
+WHERE `reservations`.`user_id` = \'3\'
+AND `reservations`.`status` IN (\'pending\',\'confirmed\')
+AND `reservations`.`pickup_date` > \'2025-11-29 13:39:10\'
+ORDER BY `reservations`.`pickup_date` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `reservations`.*, `equipment`.`name` as `equipment_name`, `equipment`.`category`, `equipment`.`accessories`
+FROM `reservations`
+JOIN `equipment` ON `equipment`.`equipment_id` = `reservations`.`equipment_id`
+WHERE `reservations`.`user_id` = \'3\'
+AND `reservations`.`status` IN (\'pending\',\'confirmed\')
+AND `reservations`.`pickup_date` > \'2025-11-29 13:39:10\'
+ORDER BY `reservations`.`pickup_date` ASC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `reservations`.*, `equipment`.`name` as `equipment_name`, `equipment`.`category`, `equipment`.`accessories`
+FROM `reservations`
+JOIN `equipment` ON `equipment`.`equipment_id` = `reservations`.`equipment_id`
+WHERE `reservations`.`user_id` = :reservations.user_id:
+AND `reservations`.`status` IN :reservations.status:
+AND `reservations`.`pickup_date` > :reservations.pickup_date:
+ORDER BY `reservations`.`pickup_date` ASC', [...], false)
+ 4 APPPATH\Models\ReservationModel.php(56): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Associate.php(289): App\Models\ReservationModel->getUpcomingReservations('3')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Associate->reservation()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Associate))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-29 13:39:10 --> [Caused by] mysqli_sql_exception: Unknown column 'reservations.pickup_date' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `reservations`.*, `equipment`.`name` as `equipment_name`, `equipment`.`category`, `equipment`.`accessories`
+FROM `reservations`
+JOIN `equipment` ON `equipment`.`equipment_id` = `reservations`.`equipment_id`
+WHERE `reservations`.`user_id` = \'3\'
+AND `reservations`.`status` IN (\'pending\',\'confirmed\')
+AND `reservations`.`pickup_date` > \'2025-11-29 13:39:10\'
+ORDER BY `reservations`.`pickup_date` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `reservations`.*, `equipment`.`name` as `equipment_name`, `equipment`.`category`, `equipment`.`accessories`
+FROM `reservations`
+JOIN `equipment` ON `equipment`.`equipment_id` = `reservations`.`equipment_id`
+WHERE `reservations`.`user_id` = \'3\'
+AND `reservations`.`status` IN (\'pending\',\'confirmed\')
+AND `reservations`.`pickup_date` > \'2025-11-29 13:39:10\'
+ORDER BY `reservations`.`pickup_date` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `reservations`.*, `equipment`.`name` as `equipment_name`, `equipment`.`category`, `equipment`.`accessories`
+FROM `reservations`
+JOIN `equipment` ON `equipment`.`equipment_id` = `reservations`.`equipment_id`
+WHERE `reservations`.`user_id` = \'3\'
+AND `reservations`.`status` IN (\'pending\',\'confirmed\')
+AND `reservations`.`pickup_date` > \'2025-11-29 13:39:10\'
+ORDER BY `reservations`.`pickup_date` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `reservations`.*, `equipment`.`name` as `equipment_name`, `equipment`.`category`, `equipment`.`accessories`
+FROM `reservations`
+JOIN `equipment` ON `equipment`.`equipment_id` = `reservations`.`equipment_id`
+WHERE `reservations`.`user_id` = :reservations.user_id:
+AND `reservations`.`status` IN :reservations.status:
+AND `reservations`.`pickup_date` > :reservations.pickup_date:
+ORDER BY `reservations`.`pickup_date` ASC', [...], false)
+ 5 APPPATH\Models\ReservationModel.php(56): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Associate.php(289): App\Models\ReservationModel->getUpcomingReservations('3')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Associate->reservation()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Associate))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-29 13:39:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:39:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-11-29 13:39:20 --> mysqli_sql_exception: Unknown column 'reservations.pickup_date' in 'where clause' in C:\xampp\htdocs\SYS\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\SYS\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `reserva...', 0)
+#1 C:\xampp\htdocs\SYS\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `reserva...')
+#2 C:\xampp\htdocs\SYS\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `reserva...')
+#3 C:\xampp\htdocs\SYS\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `reserva...', Array, false)
+#4 C:\xampp\htdocs\SYS\app\Models\ReservationModel.php(56): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\SYS\app\Controllers\Associate.php(289): App\Models\ReservationModel->getUpcomingReservations('3')
+#6 C:\xampp\htdocs\SYS\system\CodeIgniter.php(933): App\Controllers\Associate->reservation()
+#7 C:\xampp\htdocs\SYS\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Associate))
+#8 C:\xampp\htdocs\SYS\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\SYS\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\SYS\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\SYS\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-11-29 13:39:20 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'reservations.pickup_date' in 'where clause'
+[Method: GET, Route: associate/reservation]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `reservations`.*, `equipment`.`name` as `equipment_name`, `equipment`.`category`, `equipment`.`accessories`
+FROM `reservations`
+JOIN `equipment` ON `equipment`.`equipment_id` = `reservations`.`equipment_id`
+WHERE `reservations`.`user_id` = :reservations.user_id:
+AND `reservations`.`status` IN :reservations.status:
+AND `reservations`.`pickup_date` > :reservations.pickup_date:
+ORDER BY `reservations`.`pickup_date` ASC', [...], false)
+ 2 APPPATH\Models\ReservationModel.php(56): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Associate.php(289): App\Models\ReservationModel->getUpcomingReservations('3')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Associate->reservation()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Associate))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-29 13:39:20 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'reservations.pickup_date' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `reservations`.*, `equipment`.`name` as `equipment_name`, `equipment`.`category`, `equipment`.`accessories`
+FROM `reservations`
+JOIN `equipment` ON `equipment`.`equipment_id` = `reservations`.`equipment_id`
+WHERE `reservations`.`user_id` = \'3\'
+AND `reservations`.`status` IN (\'pending\',\'confirmed\')
+AND `reservations`.`pickup_date` > \'2025-11-29 13:39:20\'
+ORDER BY `reservations`.`pickup_date` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `reservations`.*, `equipment`.`name` as `equipment_name`, `equipment`.`category`, `equipment`.`accessories`
+FROM `reservations`
+JOIN `equipment` ON `equipment`.`equipment_id` = `reservations`.`equipment_id`
+WHERE `reservations`.`user_id` = \'3\'
+AND `reservations`.`status` IN (\'pending\',\'confirmed\')
+AND `reservations`.`pickup_date` > \'2025-11-29 13:39:20\'
+ORDER BY `reservations`.`pickup_date` ASC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `reservations`.*, `equipment`.`name` as `equipment_name`, `equipment`.`category`, `equipment`.`accessories`
+FROM `reservations`
+JOIN `equipment` ON `equipment`.`equipment_id` = `reservations`.`equipment_id`
+WHERE `reservations`.`user_id` = :reservations.user_id:
+AND `reservations`.`status` IN :reservations.status:
+AND `reservations`.`pickup_date` > :reservations.pickup_date:
+ORDER BY `reservations`.`pickup_date` ASC', [...], false)
+ 4 APPPATH\Models\ReservationModel.php(56): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Associate.php(289): App\Models\ReservationModel->getUpcomingReservations('3')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Associate->reservation()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Associate))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-29 13:39:20 --> [Caused by] mysqli_sql_exception: Unknown column 'reservations.pickup_date' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `reservations`.*, `equipment`.`name` as `equipment_name`, `equipment`.`category`, `equipment`.`accessories`
+FROM `reservations`
+JOIN `equipment` ON `equipment`.`equipment_id` = `reservations`.`equipment_id`
+WHERE `reservations`.`user_id` = \'3\'
+AND `reservations`.`status` IN (\'pending\',\'confirmed\')
+AND `reservations`.`pickup_date` > \'2025-11-29 13:39:20\'
+ORDER BY `reservations`.`pickup_date` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `reservations`.*, `equipment`.`name` as `equipment_name`, `equipment`.`category`, `equipment`.`accessories`
+FROM `reservations`
+JOIN `equipment` ON `equipment`.`equipment_id` = `reservations`.`equipment_id`
+WHERE `reservations`.`user_id` = \'3\'
+AND `reservations`.`status` IN (\'pending\',\'confirmed\')
+AND `reservations`.`pickup_date` > \'2025-11-29 13:39:20\'
+ORDER BY `reservations`.`pickup_date` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `reservations`.*, `equipment`.`name` as `equipment_name`, `equipment`.`category`, `equipment`.`accessories`
+FROM `reservations`
+JOIN `equipment` ON `equipment`.`equipment_id` = `reservations`.`equipment_id`
+WHERE `reservations`.`user_id` = \'3\'
+AND `reservations`.`status` IN (\'pending\',\'confirmed\')
+AND `reservations`.`pickup_date` > \'2025-11-29 13:39:20\'
+ORDER BY `reservations`.`pickup_date` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `reservations`.*, `equipment`.`name` as `equipment_name`, `equipment`.`category`, `equipment`.`accessories`
+FROM `reservations`
+JOIN `equipment` ON `equipment`.`equipment_id` = `reservations`.`equipment_id`
+WHERE `reservations`.`user_id` = :reservations.user_id:
+AND `reservations`.`status` IN :reservations.status:
+AND `reservations`.`pickup_date` > :reservations.pickup_date:
+ORDER BY `reservations`.`pickup_date` ASC', [...], false)
+ 5 APPPATH\Models\ReservationModel.php(56): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Associate.php(289): App\Models\ReservationModel->getUpcomingReservations('3')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Associate->reservation()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Associate))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-29 13:47:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:47:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:47:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:47:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-11-29 13:47:51 --> mysqli_sql_exception: Unknown column 'reservations.pickup_date' in 'where clause' in C:\xampp\htdocs\SYS\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\SYS\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `reserva...', 0)
+#1 C:\xampp\htdocs\SYS\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `reserva...')
+#2 C:\xampp\htdocs\SYS\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `reserva...')
+#3 C:\xampp\htdocs\SYS\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `reserva...', Array, false)
+#4 C:\xampp\htdocs\SYS\app\Models\ReservationModel.php(56): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\SYS\app\Controllers\Associate.php(289): App\Models\ReservationModel->getUpcomingReservations('3')
+#6 C:\xampp\htdocs\SYS\system\CodeIgniter.php(933): App\Controllers\Associate->reservation()
+#7 C:\xampp\htdocs\SYS\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Associate))
+#8 C:\xampp\htdocs\SYS\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\SYS\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\SYS\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\SYS\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-11-29 13:47:51 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'reservations.pickup_date' in 'where clause'
+[Method: GET, Route: associate/reservation]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `reservations`.*, `equipment`.`name` as `equipment_name`, `equipment`.`category`, `equipment`.`accessories`
+FROM `reservations`
+JOIN `equipment` ON `equipment`.`equipment_id` = `reservations`.`equipment_id`
+WHERE `reservations`.`user_id` = :reservations.user_id:
+AND `reservations`.`status` IN :reservations.status:
+AND `reservations`.`pickup_date` > :reservations.pickup_date:
+ORDER BY `reservations`.`pickup_date` ASC', [...], false)
+ 2 APPPATH\Models\ReservationModel.php(56): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Associate.php(289): App\Models\ReservationModel->getUpcomingReservations('3')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Associate->reservation()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Associate))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-29 13:47:51 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'reservations.pickup_date' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `reservations`.*, `equipment`.`name` as `equipment_name`, `equipment`.`category`, `equipment`.`accessories`
+FROM `reservations`
+JOIN `equipment` ON `equipment`.`equipment_id` = `reservations`.`equipment_id`
+WHERE `reservations`.`user_id` = \'3\'
+AND `reservations`.`status` IN (\'pending\',\'confirmed\')
+AND `reservations`.`pickup_date` > \'2025-11-29 13:47:51\'
+ORDER BY `reservations`.`pickup_date` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `reservations`.*, `equipment`.`name` as `equipment_name`, `equipment`.`category`, `equipment`.`accessories`
+FROM `reservations`
+JOIN `equipment` ON `equipment`.`equipment_id` = `reservations`.`equipment_id`
+WHERE `reservations`.`user_id` = \'3\'
+AND `reservations`.`status` IN (\'pending\',\'confirmed\')
+AND `reservations`.`pickup_date` > \'2025-11-29 13:47:51\'
+ORDER BY `reservations`.`pickup_date` ASC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `reservations`.*, `equipment`.`name` as `equipment_name`, `equipment`.`category`, `equipment`.`accessories`
+FROM `reservations`
+JOIN `equipment` ON `equipment`.`equipment_id` = `reservations`.`equipment_id`
+WHERE `reservations`.`user_id` = :reservations.user_id:
+AND `reservations`.`status` IN :reservations.status:
+AND `reservations`.`pickup_date` > :reservations.pickup_date:
+ORDER BY `reservations`.`pickup_date` ASC', [...], false)
+ 4 APPPATH\Models\ReservationModel.php(56): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Associate.php(289): App\Models\ReservationModel->getUpcomingReservations('3')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Associate->reservation()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Associate))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-29 13:47:51 --> [Caused by] mysqli_sql_exception: Unknown column 'reservations.pickup_date' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `reservations`.*, `equipment`.`name` as `equipment_name`, `equipment`.`category`, `equipment`.`accessories`
+FROM `reservations`
+JOIN `equipment` ON `equipment`.`equipment_id` = `reservations`.`equipment_id`
+WHERE `reservations`.`user_id` = \'3\'
+AND `reservations`.`status` IN (\'pending\',\'confirmed\')
+AND `reservations`.`pickup_date` > \'2025-11-29 13:47:51\'
+ORDER BY `reservations`.`pickup_date` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `reservations`.*, `equipment`.`name` as `equipment_name`, `equipment`.`category`, `equipment`.`accessories`
+FROM `reservations`
+JOIN `equipment` ON `equipment`.`equipment_id` = `reservations`.`equipment_id`
+WHERE `reservations`.`user_id` = \'3\'
+AND `reservations`.`status` IN (\'pending\',\'confirmed\')
+AND `reservations`.`pickup_date` > \'2025-11-29 13:47:51\'
+ORDER BY `reservations`.`pickup_date` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `reservations`.*, `equipment`.`name` as `equipment_name`, `equipment`.`category`, `equipment`.`accessories`
+FROM `reservations`
+JOIN `equipment` ON `equipment`.`equipment_id` = `reservations`.`equipment_id`
+WHERE `reservations`.`user_id` = \'3\'
+AND `reservations`.`status` IN (\'pending\',\'confirmed\')
+AND `reservations`.`pickup_date` > \'2025-11-29 13:47:51\'
+ORDER BY `reservations`.`pickup_date` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `reservations`.*, `equipment`.`name` as `equipment_name`, `equipment`.`category`, `equipment`.`accessories`
+FROM `reservations`
+JOIN `equipment` ON `equipment`.`equipment_id` = `reservations`.`equipment_id`
+WHERE `reservations`.`user_id` = :reservations.user_id:
+AND `reservations`.`status` IN :reservations.status:
+AND `reservations`.`pickup_date` > :reservations.pickup_date:
+ORDER BY `reservations`.`pickup_date` ASC', [...], false)
+ 5 APPPATH\Models\ReservationModel.php(56): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Associate.php(289): App\Models\ReservationModel->getUpcomingReservations('3')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Associate->reservation()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Associate))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-29 13:47:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:48:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:48:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:48:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:48:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:48:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-11-29 13:48:25 --> mysqli_sql_exception: Unknown column 'reservations.pickup_date' in 'where clause' in C:\xampp\htdocs\SYS\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\SYS\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `reserva...', 0)
+#1 C:\xampp\htdocs\SYS\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `reserva...')
+#2 C:\xampp\htdocs\SYS\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `reserva...')
+#3 C:\xampp\htdocs\SYS\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `reserva...', Array, false)
+#4 C:\xampp\htdocs\SYS\app\Models\ReservationModel.php(56): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\SYS\app\Controllers\Associate.php(289): App\Models\ReservationModel->getUpcomingReservations('3')
+#6 C:\xampp\htdocs\SYS\system\CodeIgniter.php(933): App\Controllers\Associate->reservation()
+#7 C:\xampp\htdocs\SYS\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Associate))
+#8 C:\xampp\htdocs\SYS\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\SYS\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\SYS\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\SYS\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-11-29 13:48:25 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'reservations.pickup_date' in 'where clause'
+[Method: GET, Route: associate/reservation]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `reservations`.*, `equipment`.`name` as `equipment_name`, `equipment`.`category`, `equipment`.`accessories`
+FROM `reservations`
+JOIN `equipment` ON `equipment`.`equipment_id` = `reservations`.`equipment_id`
+WHERE `reservations`.`user_id` = :reservations.user_id:
+AND `reservations`.`status` IN :reservations.status:
+AND `reservations`.`pickup_date` > :reservations.pickup_date:
+ORDER BY `reservations`.`pickup_date` ASC', [...], false)
+ 2 APPPATH\Models\ReservationModel.php(56): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Associate.php(289): App\Models\ReservationModel->getUpcomingReservations('3')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Associate->reservation()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Associate))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-29 13:48:25 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'reservations.pickup_date' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `reservations`.*, `equipment`.`name` as `equipment_name`, `equipment`.`category`, `equipment`.`accessories`
+FROM `reservations`
+JOIN `equipment` ON `equipment`.`equipment_id` = `reservations`.`equipment_id`
+WHERE `reservations`.`user_id` = \'3\'
+AND `reservations`.`status` IN (\'pending\',\'confirmed\')
+AND `reservations`.`pickup_date` > \'2025-11-29 13:48:25\'
+ORDER BY `reservations`.`pickup_date` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `reservations`.*, `equipment`.`name` as `equipment_name`, `equipment`.`category`, `equipment`.`accessories`
+FROM `reservations`
+JOIN `equipment` ON `equipment`.`equipment_id` = `reservations`.`equipment_id`
+WHERE `reservations`.`user_id` = \'3\'
+AND `reservations`.`status` IN (\'pending\',\'confirmed\')
+AND `reservations`.`pickup_date` > \'2025-11-29 13:48:25\'
+ORDER BY `reservations`.`pickup_date` ASC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `reservations`.*, `equipment`.`name` as `equipment_name`, `equipment`.`category`, `equipment`.`accessories`
+FROM `reservations`
+JOIN `equipment` ON `equipment`.`equipment_id` = `reservations`.`equipment_id`
+WHERE `reservations`.`user_id` = :reservations.user_id:
+AND `reservations`.`status` IN :reservations.status:
+AND `reservations`.`pickup_date` > :reservations.pickup_date:
+ORDER BY `reservations`.`pickup_date` ASC', [...], false)
+ 4 APPPATH\Models\ReservationModel.php(56): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Associate.php(289): App\Models\ReservationModel->getUpcomingReservations('3')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Associate->reservation()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Associate))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-11-29 13:48:25 --> [Caused by] mysqli_sql_exception: Unknown column 'reservations.pickup_date' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `reservations`.*, `equipment`.`name` as `equipment_name`, `equipment`.`category`, `equipment`.`accessories`
+FROM `reservations`
+JOIN `equipment` ON `equipment`.`equipment_id` = `reservations`.`equipment_id`
+WHERE `reservations`.`user_id` = \'3\'
+AND `reservations`.`status` IN (\'pending\',\'confirmed\')
+AND `reservations`.`pickup_date` > \'2025-11-29 13:48:25\'
+ORDER BY `reservations`.`pickup_date` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `reservations`.*, `equipment`.`name` as `equipment_name`, `equipment`.`category`, `equipment`.`accessories`
+FROM `reservations`
+JOIN `equipment` ON `equipment`.`equipment_id` = `reservations`.`equipment_id`
+WHERE `reservations`.`user_id` = \'3\'
+AND `reservations`.`status` IN (\'pending\',\'confirmed\')
+AND `reservations`.`pickup_date` > \'2025-11-29 13:48:25\'
+ORDER BY `reservations`.`pickup_date` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `reservations`.*, `equipment`.`name` as `equipment_name`, `equipment`.`category`, `equipment`.`accessories`
+FROM `reservations`
+JOIN `equipment` ON `equipment`.`equipment_id` = `reservations`.`equipment_id`
+WHERE `reservations`.`user_id` = \'3\'
+AND `reservations`.`status` IN (\'pending\',\'confirmed\')
+AND `reservations`.`pickup_date` > \'2025-11-29 13:48:25\'
+ORDER BY `reservations`.`pickup_date` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `reservations`.*, `equipment`.`name` as `equipment_name`, `equipment`.`category`, `equipment`.`accessories`
+FROM `reservations`
+JOIN `equipment` ON `equipment`.`equipment_id` = `reservations`.`equipment_id`
+WHERE `reservations`.`user_id` = :reservations.user_id:
+AND `reservations`.`status` IN :reservations.status:
+AND `reservations`.`pickup_date` > :reservations.pickup_date:
+ORDER BY `reservations`.`pickup_date` ASC', [...], false)
+ 5 APPPATH\Models\ReservationModel.php(56): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Associate.php(289): App\Models\ReservationModel->getUpcomingReservations('3')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Associate->reservation()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Associate))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-11-29 13:50:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:51:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:51:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:51:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:51:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:51:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:51:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:51:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:51:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:51:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:51:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:51:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:51:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:51:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:51:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:52:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:52:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:52:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:54:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:54:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:54:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:54:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:54:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:54:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:54:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:54:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:54:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:54:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:55:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:55:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:55:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:55:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:55:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:56:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:56:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:57:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:57:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:57:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:57:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:57:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:57:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:57:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:57:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:57:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:58:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:58:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:58:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:58:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:58:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:58:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:58:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:58:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:59:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:59:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:59:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:59:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:59:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:59:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:59:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:59:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:59:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:59:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:59:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 13:59:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:00:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:00:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:00:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:00:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:00:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:00:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:00:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:00:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:00:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:00:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:00:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:01:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:01:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:01:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:01:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:01:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:01:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:01:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:01:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:01:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:01:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:01:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:01:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:01:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:01:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:01:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:01:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:01:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:01:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:03:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:04:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:04:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:04:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:04:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:04:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:04:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:04:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:04:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:04:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:06:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:06:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:06:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:06:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:06:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:06:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:06:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:06:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:06:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:06:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:06:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:06:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:07:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:07:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:07:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:07:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:07:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:07:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:07:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:07:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:07:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:07:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:07:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:08:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:08:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:08:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:08:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:08:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:08:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:08:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:12:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:12:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:12:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:12:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:12:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:13:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:13:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:13:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:13:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:13:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:13:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:13:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:13:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:13:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:13:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:13:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:13:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:14:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:14:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:14:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:14:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:14:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:14:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:14:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:14:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:14:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:14:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:16:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:17:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:17:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:18:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:18:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:18:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:18:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:18:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:18:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:18:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:19:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:19:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:19:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:19:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:19:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:19:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:19:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:19:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:19:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:20:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:20:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:20:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:20:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:20:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:20:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:21:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:21:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:21:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:22:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:22:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:22:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:22:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:22:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:23:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:23:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:23:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:23:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:23:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:24:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:24:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:24:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:24:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:25:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:25:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:25:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:25:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:25:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:25:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:25:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:25:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:26:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:26:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:26:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:27:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:27:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:27:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:27:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:28:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:28:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:28:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:28:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:28:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:28:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:28:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:28:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:28:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:28:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:28:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:28:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-29 14:28:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
